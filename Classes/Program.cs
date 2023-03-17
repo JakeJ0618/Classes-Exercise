@@ -1,10 +1,21 @@
-﻿namespace Classes
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace Classes
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+           Car sedan = new Car();
+            sedan.Make = "Chevy";
+            sedan.Model = "Impala";
+            sedan.Year = "1967";
+
+            
         }
+      
+        
     }
 }
