@@ -13,7 +13,8 @@ namespace Classes
             sedan.Model = "Impala";
             sedan.Year = "1967";
 
-            
+            Console.WriteLine($"{sedan.Year} {sedan.Make} {sedan.Model}");
+
         }
       
         
